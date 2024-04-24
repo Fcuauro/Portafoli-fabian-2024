@@ -1,0 +1,312 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+/* Seccion del Menu*/
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_header{
+    display: flex;
+    align-items: center;
+}
+
+.titulo_menu{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.menu_supeior{
+    display: inline-flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 0;
+}
+
+.menu_superioritem{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0 28px 56px #000000;
+    background-color: #b1d8cb;
+    border-radius: 45px;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.menu_superioritem:hover .submenu {
+    display: block;
+    background: #b1d8cb;
+    padding: 20px;
+    
+}
+
+.contacto_submenu{
+    margin: 10px;
+    text-align: center;
+}
+
+.contacto_submenu a:hover{
+    font-weight: bolder;
+    background-color: #b1d8cb;
+    box-shadow: 0 28px 56px #000000;
+}
+
+
+.menu_superioritem a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Titulo*/
+
+.titulo{
+    display: inline-block;
+    margin-top: 150px;
+}
+
+.titulo_principal{
+    display: flex;
+
+}
+
+.imagen_principal{
+    border-radius: 45px;
+    box-shadow: 0 28px 56px #b1d8cb;
+}
+
+.Descripcion{
+    display: inline-block;
+    margin-left: 25%;
+    background-color: #b1d8cb;
+    border-radius: 45px;
+    box-shadow: 0 28px 56px #000000;
+}
+
+.titulo_descripcion{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+.subtitulo{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.Redes_sociales{
+    display: flex;
+    gap: 180px;
+    margin-top: 50px;
+}
+
+/* sobre mi*/
+
+
+.titulo_sobremi{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #b1d8cb;
+    border-radius: 20px;
+}
+
+.subtitulo_sobremi{
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/* hobbies*/
+
+.titulo_hobbies{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #b1d8cb;
+    border-radius: 20px;
+}
+
+.hobbies_linea{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.hobbies_nombre{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* habilidades*/
+
+.titulo_habilidades{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #b1d8cb;
+    border-radius: 20px;
+}
+
+.habilidades_linea{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.habilidades_caja{
+    padding: 30px;
+}
+
+.habilidades_nombre{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* formacion*/
+
+.formacion{
+    background-color: #b1d8cb;
+    width: 100%;
+    box-shadow: 0 28px 56px #000000;
+    border-radius: 45px;
+}
+
+.titulo_formacion{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.formacion_lista{
+    display: flex;
+    justify-content: center;
+
+}
+
+.formacion_img{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+.titulo_items{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.subtitulo_formacion{
+    font-weight: normal;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* proyectos*/
+
+.titulo_proyectos{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* contactos*/
+
+
+.titulo_contactos{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #b1d8cb;
+    border-radius: 20px;
+}
+
+.contacto_general{
+    display: flex;
+    background-color: #b1d8cb;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 28px 56px #000000;
+    border-radius: 45px;
+}
+
+.contancto_img{
+    text-align: center;
+    margin: 30px;
+}
+
+.contacto_texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.contacto_subtitulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contacto_subtexto{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.form{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contato_input{
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.boton_contacto{
+    background: black;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 120px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.footer__rodapie{
+    text-align: center;
+    padding: 20px;
+ }
