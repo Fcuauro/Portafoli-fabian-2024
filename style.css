@@ -39,36 +39,6 @@ body{
     border-radius: 45px;
 }
 
-.submenu{
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    list-style-type: none;
-    padding: 0;
-    background-color: #ffffff;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
-}
-
-.menu_superioritem:hover .submenu {
-    display: block;
-    background: #b1d8cb;
-    padding: 20px;
-    
-}
-
-.contacto_submenu{
-    margin: 10px;
-    text-align: center;
-}
-
-.contacto_submenu a:hover{
-    font-weight: bolder;
-    background-color: #b1d8cb;
-    box-shadow: 0 28px 56px #000000;
-}
-
-
 .menu_superioritem a{
     text-decoration: none;
     color: #000000;
